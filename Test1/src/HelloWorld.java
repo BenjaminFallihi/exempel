@@ -1,5 +1,6 @@
 
 public class HelloWorld {
+
 	/**
 	 * liefert das Ergebnis der Addition von zahl1 und zahl2 zurück. Hinweis:
 	 * int weist darufhin, dass es einen Rückgabewert hat
@@ -9,18 +10,20 @@ public class HelloWorld {
 	 * @return result
 	 */
 	public static int plus(int left, int right) {
-		int result;
+		int result = 0;
 		result = left + right;
 		return result;
 
 	}
 
+	
+
 	public static void main(String[] args) {
 
 		int zahl1 = 3;
 		int zahl2 = 2;
-		int erg;
-		String text;
+		int erg1;
+
 		/*
 		 * der Inhalt in der Klammern wird ausgegeben
 		 */
@@ -31,9 +34,8 @@ public class HelloWorld {
 		 * die Methode weiter gegeben. Das Ergebnis wird zu ausgabe zugewiesen.
 		 * 
 		 */
-		erg = plus(zahl1, zahl2);
-
-		System.out.println(erg);
+		erg1 = plus(zahl1, zahl2);
+		System.out.println(erg1);
 
 	}
 
