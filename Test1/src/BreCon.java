@@ -1,7 +1,7 @@
 
 public class BreCon {
 
-	public static int fakul(int zahl) {
+	public int fakul(int zahl) {
 		int result = 1;
 		while (true) {
 			if (zahl < 1) {

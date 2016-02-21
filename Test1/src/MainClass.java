@@ -1,8 +1,12 @@
 
 public class MainClass {
+	 static BreCon fakultet = new BreCon();
+
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		int erg;
+		erg = fakultet.fakul(4);
+		System.out.println(erg);
 
 	}
 
