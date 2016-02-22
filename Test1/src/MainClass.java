@@ -9,6 +9,9 @@ public class MainClass {
 		System.out.println(erg1);
 
 		System.out.println(vergleich.bool(11, 13));
+		
+		int[] arry = new int[5];
+		System.out.println(arry.length);
 
 	}
 
