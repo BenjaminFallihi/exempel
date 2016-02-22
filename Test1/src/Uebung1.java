@@ -2,8 +2,28 @@
 public class Uebung1 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		long beiZahl = 0;
+		int zeilenumbruch = 0;
+		final int MAXIMALZEILEN = 100;
 
+		whileSchleife: while (true) {
+
+			beiZahl++;
+
+			for (int i = 2; i < beiZahl; i++) {
+				if (beiZahl % i == 0) {
+					continue whileSchleife;
+				}
+			}
+
+			System.out.print(beiZahl + " ; ");
+			zeilenumbruch++;
+
+			if (zeilenumbruch >= MAXIMALZEILEN) {
+				zeilenumbruch = 0;
+				System.out.println();
+			}
+		}
 	}
 
 }
