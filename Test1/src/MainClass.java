@@ -8,9 +8,7 @@ public class MainClass {
 		erg1 = fakultet.fakul(4);
 		System.out.println(erg1);
 
-		int erg2;
-		erg2 = vergleich.bool(10, 5);
-		System.out.println(erg2);
+		System.out.println(vergleich.bool(11, 13));
 
 	}
 
