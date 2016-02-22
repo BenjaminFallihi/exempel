@@ -1,7 +1,7 @@
 
 public class SwitchFall {
 
-	public void faelle(String name) {
+	public boolean faelle(String name) {
 		switch (name) {
 		case "Hund":
 			System.out.println("Murat ist gemeint.");
@@ -13,9 +13,10 @@ public class SwitchFall {
 			System.out.println("Khaled ist gemeint.");
 			break;
 		default:
-			System.out.println("Falsche Name.");
+			System.out.println("Falscher Typ.");
 			break;
 		}
+		return true;
 	}
 
 }
