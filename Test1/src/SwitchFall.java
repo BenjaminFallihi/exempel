@@ -5,7 +5,7 @@ public class SwitchFall {
 		switch (name) {
 		case "Hund":
 			System.out.println("Murat ist gemeint.");
-			break;
+			break;//rest des Programms wird nicht ausgeführt
 		case "Lauch":
 			System.out.println("Nahro ist gemeint.");
 			break;
