@@ -16,13 +16,26 @@ public class HelloWorld {
 
 	}
 
-	
+	/**
+	 * 
+	 * @param parameter
+	 * @return
+	 */
+	public static int rechnen(int... parameter) {
+		int erg = 0;
+		for (int i = 0; i < parameter.length; i++) {
+			erg += parameter[i];
+		}
+		return erg;
+	}
 
 	public static void main(String[] args) {
 
-		int zahl1 = 3;
-		int zahl2 = 2;
-		int erg1;
+		int zahl1, zahl2, zahl3;
+		zahl1 = 3;
+		zahl2 = 2;
+		zahl3 = 5;
+		int erg1, erg2;
 
 		/*
 		 * der Inhalt in der Klammern wird ausgegeben
@@ -36,6 +49,12 @@ public class HelloWorld {
 		 */
 		erg1 = plus(zahl1, zahl2);
 		System.out.println(erg1);
+
+		/*
+		 * 
+		 */
+		erg2 = rechnen(zahl1, zahl2, zahl3);
+		System.out.println(erg2);
 
 	}
 
