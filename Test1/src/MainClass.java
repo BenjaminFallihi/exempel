@@ -1,25 +1,47 @@
 import java.util.Scanner;
 
 public class MainClass {
-	static BreCon fakultet = new BreCon();
-	static TypTyp vergleich = new TypTyp();
 	static Scanner scan = new Scanner(System.in);
-	static SwitchFall typsuchen = new SwitchFall();
 
 	public static void main(String[] args) {
-		int erg1;
-		erg1 = fakultet.fakul(4);
-		System.out.println(erg1);
 
-		System.out.println(vergleich.bool(11, 13));
+		/*
+		 * 
+		 */
+		/*
+		 * BreCon fakultet = new BreCon(); int erg1; erg1 = fakultet.fakul(4);
+		 * System.out.println(erg1);
+		 */
 
-		int[] arry = new int[5];
-		System.out.println(arry.length);
+		/*
+		 * 
+		 */
+		/*
+		 * TypTyp vergleich = new TypTyp();
+		 * System.out.println(vergleich.bool(11, 13));
+		 */
 
-		String name;
-		System.out.println("Geben Sie einen Typ ein:");
-		name = scan.next();
-		System.out.println(typsuchen.faelle(name));
+		/*
+		 * 
+		 */
+		/*
+		 * int[] arry = new int[5]; System.out.println(arry.length);
+		 */
+
+		/*
+		 * 
+		 */
+		/*
+		 * SwitchFall typsuchen = new SwitchFall(); String name;
+		 * System.out.println("Geben Sie einen Typ ein:"); name = scan.next();
+		 * System.out.println(typsuchen.faelle(name));
+		 */
+
+		/*
+		 * 
+		 */
+		ZufallZahl wurfel = new ZufallZahl();
+		System.out.println(wurfel.zufall());
 
 	}
 
