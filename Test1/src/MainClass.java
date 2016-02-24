@@ -56,6 +56,12 @@ public class MainClass {
 		// ZufallZahl wurfel = new ZufallZahl();
 		// System.out.println(wurfel.zufall());
 
+		/*
+		 * 
+		 */
+		// BreCon rekFakultet = new BreCon();
+		// System.out.println(rekFakultet.rekFakul(4));
+
 	}
 
 }

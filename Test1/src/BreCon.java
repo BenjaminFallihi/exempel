@@ -12,4 +12,12 @@ public class BreCon {
 		}
 		return result;
 	}
+
+	public int rekFakul(int zahl) {
+		if (zahl == 1)
+			return 1;
+		else {
+			return rekFakul(zahl - 1) * zahl;
+		}
+	}
 }
