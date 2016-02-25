@@ -62,6 +62,27 @@ public class MainClass {
 		// BreCon rekFakultet = new BreCon();
 		// System.out.println(rekFakultet.rekFakul(4));
 
+		/*
+		 * 
+		 */
+		// System.out.println("Anzahl der Menschen: " + Mensch.anzahlMensch);
+		// Mensch murat = new Mensch();
+		// Mensch farshid = new Mensch("Fallihi", "Farshid", 27, 178, 124);
+		// Mensch khaled = new Mensch("Shakib", "Khaled", 30, 170, 1);
+		// System.out.println(farshid.name + " " + farshid.vorname);
+		// System.out.println("Khaled sein IQ ist: " + khaled.iq);
+		// System.out.println("Murat sein IQ ist: " + murat.iq);
+		// khaled.wissen();
+		// System.out.println("Khaled sein IQ ist: " + khaled.iq);
+		// System.out.println("Anzahl der Menschen: " + Mensch.anzahlMensch);
+
+		/*
+		 * die Methode getAnzahlMenschen(); kann aufgerufen werden ohne, dass
+		 * man ein Objekt erzeugt, weil es eine static Metode ist und an der
+		 * Klasse Menschen gebunden ist.
+		 */
+		// System.out.println(Mensch.getAnzahlMenschen());
+
 	}
 
 }
