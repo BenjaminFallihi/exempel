@@ -12,7 +12,7 @@ public class Labels {
 			
 			for (int i = 2; i < beiZahl; i++) {
 				if (beiZahl % i == 0) {
-					continue whileSchleife;//springt zu der Zeile 8 whileSchleife
+					continue whileSchleife;//springt zu der Zeile 9 whileSchleife
 				}
 			}
 

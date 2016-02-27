@@ -1,7 +1,11 @@
+/*
+ * mit extends sagt man dem Kompiler, dass die Klasse Mensch 
+ * alle Eigenschaften der Klasse Lebewesen erben bzw. übernehmen soll.
+ */
 
-public class Mensch {
-	int alter, gross, iq;
-	String name, vorname;
+public class Mensch extends Lebewesen {
+	int gross, iq;
+	String name;
 
 	/*
 	 * static ist an der Klasse gebunden und ist für alle gleich. Private
@@ -31,10 +35,10 @@ public class Mensch {
 	 * @param wieGross
 	 * @param wieSchlau
 	 */
-	Mensch(String Name, String Vorname, int wieAlt, int wieGross, int wieSchlau) {
+	Mensch(String name, String vorname, int wieAlt, int wieGross, int wieSchlau) {
 
-		this.name = Name;
-		this.vorname = Vorname;
+		this.name = name;
+		this.vorname = vorname;
 		this.alter = wieAlt;
 		this.gross = wieGross;
 		this.iq = wieSchlau;
@@ -49,21 +53,14 @@ public class Mensch {
 	void wissen() {
 		this.iq++;
 	}
-
-	public int getAlter() {
-		return alter;
-	}
-
-	public void setAlter(int alter) {
-		this.alter = alter;
-	}
-
-	public String getVorname() {
-		return vorname;
-	}
-
-	public void setVorname(String vorname) {
-		this.vorname = vorname;
+	/*
+	 * (non-Javadoc)
+	 * @see java.lang.Object#toString()
+	 * die Methode toString wird überschrieben
+	 */
+	@Override//man kann damit überprüfen ob die Methode existiert.
+	public String toString(){
+		return String.format("Name: %s\nVorname: %s\nAlter: %s" , name, vorname, alter);
 	}
 
 }

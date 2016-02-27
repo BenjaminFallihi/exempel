@@ -45,10 +45,10 @@ public class MainClass {
 		 * 
 		 */
 		// SwitchFall typsuchen = new SwitchFall();
-		// String name;
+		// String typ;
 		// System.out.println("Geben Sie einen Typ ein:");
-		// name = scan.next();
-		// System.out.println(typsuchen.faelle(name));
+		// typ = scan.next();
+		// System.out.println(typsuchen.faelle(typ));
 
 		/*
 		 * 
@@ -65,16 +65,22 @@ public class MainClass {
 		/*
 		 * 
 		 */
-		// System.out.println("Anzahl der Menschen: " + Mensch.anzahlMensch);
+		// System.out.println("Anzahl der Menschen: " +
+		// Mensch.getAnzahlMenschen());
 		// Mensch murat = new Mensch();
-		// Mensch farshid = new Mensch("Fallihi", "Farshid", 27, 178, 124);
+		//Mensch farshid = new Mensch("Fallihi", "Farshid", 27, 178, 124);
 		// Mensch khaled = new Mensch("Shakib", "Khaled", 30, 170, 1);
-		// System.out.println(farshid.name + " " + farshid.vorname);
+		//System.out.println(farshid.name + " " + farshid.vorname);//Ausgabe
+		// Farshid
 		// System.out.println("Khaled sein IQ ist: " + khaled.iq);
 		// System.out.println("Murat sein IQ ist: " + murat.iq);
 		// khaled.wissen();
 		// System.out.println("Khaled sein IQ ist: " + khaled.iq);
-		// System.out.println("Anzahl der Menschen: " + Mensch.anzahlMensch);
+		// System.out.println("Anzahl der Menschen: " +
+		// Mensch.getAnzahlMenschen());
+		// System.out.println(farshid.toString());//vereinfacht die Zeile
+		// Ausgabe farshid
+		
 
 		/*
 		 * die Methode getAnzahlMenschen(); kann aufgerufen werden ohne, dass
