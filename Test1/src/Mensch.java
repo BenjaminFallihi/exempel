@@ -53,14 +53,22 @@ public class Mensch extends Lebewesen {
 	void wissen() {
 		this.iq++;
 	}
+
 	/*
 	 * (non-Javadoc)
-	 * @see java.lang.Object#toString()
-	 * die Methode toString wird überschrieben
+	 * 
+	 * @see java.lang.Object#toString() die Methode toString wird überschrieben
 	 */
-	@Override//man kann damit überprüfen ob die Methode existiert.
-	public String toString(){
-		return String.format("Name: %s\nVorname: %s\nAlter: %s" , name, vorname, alter);
+	@Override // man kann damit überprüfen ob die Methode existiert.
+	public String toString() {
+		return String.format("Name: %s\nVorname: %s\nAlter: %s", name, vorname, alter);
+	}
+
+	@Override
+	public boolean methode() {
+		System.out.println("diese Methode ist abstaract und muss neue definiert werden");
+		return true;
+
 	}
 
 }

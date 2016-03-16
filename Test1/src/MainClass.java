@@ -68,19 +68,16 @@ public class MainClass {
 		// System.out.println("Anzahl der Menschen: " +
 		// Mensch.getAnzahlMenschen());
 		// Mensch murat = new Mensch();
-		//Mensch farshid = new Mensch("Fallihi", "Farshid", 27, 178, 124);
+		// Mensch farshid = new Mensch("Fallihi", "Farshid", 27, 178, 124);
 		// Mensch khaled = new Mensch("Shakib", "Khaled", 30, 170, 1);
-		//System.out.println(farshid.name + " " + farshid.vorname);//Ausgabe
-		// Farshid
+		// System.out.println(farshid.name + " " + farshid.vorname);
 		// System.out.println("Khaled sein IQ ist: " + khaled.iq);
 		// System.out.println("Murat sein IQ ist: " + murat.iq);
 		// khaled.wissen();
 		// System.out.println("Khaled sein IQ ist: " + khaled.iq);
 		// System.out.println("Anzahl der Menschen: " +
 		// Mensch.getAnzahlMenschen());
-		// System.out.println(farshid.toString());//vereinfacht die Zeile
-		// Ausgabe farshid
-		
+		// System.out.println(farshid.toString());
 
 		/*
 		 * die Methode getAnzahlMenschen(); kann aufgerufen werden ohne, dass
@@ -88,6 +85,18 @@ public class MainClass {
 		 * Klasse Menschen gebunden ist.
 		 */
 		// System.out.println(Mensch.getAnzahlMenschen());
+
+		/*
+		 * 
+		 */
+		// FinalClass message = new FinalClass();
+		// System.out.println(message.ausgabe());
+
+		/*
+		 * 
+		 */
+		Mensch ausgabe = new Mensch();
+		System.out.println(ausgabe.methode());
 
 	}
 

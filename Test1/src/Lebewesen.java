@@ -1,8 +1,14 @@
 
-public class Lebewesen {
+public abstract class Lebewesen {
 	int alter;
 	String vorname, input;
-	
+
+	/*
+	 * diese Methode muss nicht definiert werden. alle klassen, die diese klasse
+	 * erben, müssen die Methode neue definieren.
+	 */
+	public abstract boolean methode();
+
 	public int getAlter() {
 		return alter;
 	}
