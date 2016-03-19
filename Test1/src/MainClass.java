@@ -95,8 +95,20 @@ public class MainClass {
 		/*
 		 * 
 		 */
-		Mensch ausgabe = new Mensch();
-		System.out.println(ausgabe.methode());
+		// Mensch ausgabe = new Mensch();
+		// System.out.println(ausgabe.methode());
+
+		/*
+		 * 
+		 */
+		TryCatch ausgabe = new TryCatch();
+		int zahl1, zahl2, zahl3;
+		System.out.println("Geben Sie eine Zahl ein:");
+		zahl1 = scan.nextInt();
+		System.out.println("Geben Sie noch eine Zahl ein:");
+		zahl2 = scan.nextInt();
+		zahl3 = ausgabe.trycatch(zahl1, zahl2);
+		System.out.println(zahl3);
 
 	}
 
