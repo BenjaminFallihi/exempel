@@ -128,11 +128,11 @@ public class MainClass {
 		/*
 		 * 
 		 */
-		File datei = new File("f://Test//Mensch.txt");
-		DateiHandler dh = new DateiHandler(datei);
-		Mensch p1 = dh.lesen();
-		System.out.println(p1.toString());
-		dh.schliessen();
+		// File datei = new File("f://Test//Mensch.txt");
+		// DateiHandler dh = new DateiHandler(datei);
+		// Mensch p1 = dh.lesen();
+		// System.out.println(p1.toString());
+		// dh.schliessen();
 
 	}
 
