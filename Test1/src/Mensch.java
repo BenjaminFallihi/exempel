@@ -61,7 +61,7 @@ public class Mensch extends Lebewesen {
 	 */
 	@Override // man kann damit überprüfen ob die Methode existiert.
 	public String toString() {
-		return String.format("Name: %s\nVorname: %s\nAlter: %s", name, vorname, alter);
+		return String.format("Name: %s\nVorname: %s\nAlter: %s\nGross: %s\nIq: %s", name, vorname, alter, gross, iq);
 	}
 
 	@Override

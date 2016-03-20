@@ -1,6 +1,9 @@
 
 public class TryCatch {
-
+	
+	/*
+	 * 
+	 */
 	public int trycatch(int zahl1, int zahl2) {
 		int zahl3 = 0;
 		try {

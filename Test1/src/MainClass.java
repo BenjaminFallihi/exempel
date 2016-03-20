@@ -1,3 +1,6 @@
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Formatter;
 import java.util.Scanner;
 
 public class MainClass {
@@ -101,14 +104,35 @@ public class MainClass {
 		/*
 		 * 
 		 */
-		TryCatch ausgabe = new TryCatch();
-		int zahl1, zahl2, zahl3;
-		System.out.println("Geben Sie eine Zahl ein:");
-		zahl1 = scan.nextInt();
-		System.out.println("Geben Sie noch eine Zahl ein:");
-		zahl2 = scan.nextInt();
-		zahl3 = ausgabe.trycatch(zahl1, zahl2);
-		System.out.println(zahl3);
+		// TryCatch ausgabe = new TryCatch();
+		// int zahl1, zahl2, zahl3;
+		// System.out.println("Geben Sie eine Zahl ein:");
+		// zahl1 = scan.nextInt();
+		// System.out.println("Geben Sie noch eine Zahl ein:");
+		// zahl2 = scan.nextInt();
+		// zahl3 = ausgabe.trycatch(zahl1, zahl2);
+		// System.out.println(zahl3);
+
+		/*
+		 * 
+		 */
+		// File datei1 = new File("f://Test//java_test.txt");
+		// if (!datei1.exists()) {
+		// try {
+		// Formatter datei = new Formatter("f://Test//java_test.txt");
+		// } catch (FileNotFoundException e) {
+		// e.printStackTrace();
+		// }
+		// }
+		
+		/*
+		 * 
+		 */
+		File datei = new File("f://Test//Mensch.txt");
+		DateiHandler dh = new DateiHandler(datei);
+		Mensch p1 = dh.lesen();
+		System.out.println(p1.toString());
+		dh.schliessen();
 
 	}
 
